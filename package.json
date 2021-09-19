@@ -1,0 +1,28 @@
+{
+  "name": "pkce-github-nodejs",
+  "version": "0.0.1",
+  "description": "set up an App server which take github as the authorization server.",
+  "main": "server.js",
+  "scripts": {
+    "dev-sec": "nodemon server-client-secret.js",
+    "start-dev-sec": "node server-client-secret.js",
+    "dev-pkce": "nodemon server-pkce.js"
+  },
+  "keywords": [
+    "auth2"
+  ],
+  "author": "Jeff Times <jefftimes@gmail.com> (https://jefftimes.github.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "base64url": "^3.0.1",
+    "compression": "^1.7.4",
+    "crypto-js": "^4.1.1",
+    "debug": "^3.2.7",
+    "dotenv": "^10.0.0",
+    "finalhandler": "^1.1.2",
+    "nodemon": "^2.0.12",
+    "router": "^1.3.5",
+    "sha.js": "^2.4.11",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

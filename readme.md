@@ -39,3 +39,5 @@ https://developer.okta.com/docs/concepts/oauth-openid/#authorization-code-flow-w
 1. crypto.createHash('sha256').update(str).digest(encoder)
 2. Base64String.replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/g,'');
 3. base64url(string)
+
+
